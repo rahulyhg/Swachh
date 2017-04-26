@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Report">
+        <menu>
+            <item
+                android:id="@+id/clean"
+                android:title="Report Cleanliness Issue" />
+            <item
+                android:id="@+id/water"
+                android:title="Report Water Issue" />
+
+            <item
+                android:id="@+id/electric"
+                android:title="Report Electric Issue" />
+        </menu>
+    </item>
+
+
+    <item android:title="Train Issues">
+        <menu>
+            <item
+                android:id="@+id/women"
+                android:title="Report Woman Harassment Issue" />
+            <item
+                android:id="@+id/sanitation"
+                android:title="Report Sanitation Issue" />
+
+            <item
+                android:id="@+id/food"
+                android:title="Report Food Issue" />
+        </menu>
+    </item>
+
+
+
+
+</menu>
